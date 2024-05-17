@@ -2501,7 +2501,7 @@ class theme_config {
 
         debugging('Can not find layout file for: ' . $pagelayout);
         // fallback to standard normal layout
-        return "$CFG->dirroot/theme/base/layout/general.php";
+        return "$CFG->dirroot/theme/boost/layout/columns1.php";
     }
 
     /**
